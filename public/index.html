@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loot Box Simulator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <h1>Loot Box Simulator</h1>
+    <p class="subtitle">Click the crate to open it</p>
+
+    <div class="stage">
+      <div class="carousel-window" id="carousel-window" hidden>
+        <div class="carousel-track" id="carousel-track"></div>
+        <div class="carousel-pointer"></div>
+      </div>
+
+      <button id="crate-button" class="crate-button" aria-label="Open crate">
+        <img src="images/crate.svg" alt="Loot crate" draggable="false">
+      </button>
+
+      <div class="result-card" id="result-card" hidden>
+        <img id="result-image" alt="">
+        <div class="result-name" id="result-name"></div>
+        <div class="result-rarity" id="result-rarity"></div>
+        <button id="again-button" class="again-button">Open another</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

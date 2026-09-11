@@ -1,0 +1,702 @@
+[
+  {
+    "id": "mountain-original",
+    "name": "Original Mountain",
+    "image": "images/mountain.svg",
+    "filter": "none",
+    "rarity": "common"
+  },
+  {
+    "id": "mountain-crimson",
+    "name": "Crimson Mountain",
+    "image": "images/mountain.svg",
+    "filter": "hue-rotate(320deg) saturate(1.6)",
+    "rarity": "common"
+  },
+  {
+    "id": "mountain-emerald",
+    "name": "Emerald Mountain",
+    "image": "images/mountain.svg",
+    "filter": "hue-rotate(90deg) saturate(1.4)",
+    "rarity": "common"
+  },
+  {
+    "id": "mountain-azure",
+    "name": "Azure Mountain",
+    "image": "images/mountain.svg",
+    "filter": "hue-rotate(180deg) saturate(1.4)",
+    "rarity": "rare"
+  },
+  {
+    "id": "mountain-golden",
+    "name": "Golden Mountain",
+    "image": "images/mountain.svg",
+    "filter": "sepia(0.6) saturate(2) hue-rotate(-20deg)",
+    "rarity": "common"
+  },
+  {
+    "id": "mountain-violet",
+    "name": "Violet Mountain",
+    "image": "images/mountain.svg",
+    "filter": "hue-rotate(250deg) saturate(1.6)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "mountain-midnight",
+    "name": "Midnight Mountain",
+    "image": "images/mountain.svg",
+    "filter": "brightness(0.55) saturate(1.3) hue-rotate(220deg)",
+    "rarity": "common"
+  },
+  {
+    "id": "mountain-inferno",
+    "name": "Inferno Mountain",
+    "image": "images/mountain.svg",
+    "filter": "hue-rotate(-30deg) saturate(2.2) contrast(1.2) brightness(1.1)",
+    "rarity": "rare"
+  },
+  {
+    "id": "mountain-frost",
+    "name": "Frost Mountain",
+    "image": "images/mountain.svg",
+    "filter": "hue-rotate(190deg) saturate(0.7) brightness(1.3) contrast(0.9)",
+    "rarity": "common"
+  },
+  {
+    "id": "mountain-spectral",
+    "name": "Spectral Mountain",
+    "image": "images/mountain.svg",
+    "filter": "invert(0.82) hue-rotate(180deg) saturate(1.5)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "river-original",
+    "name": "Original River",
+    "image": "images/river.svg",
+    "filter": "none",
+    "rarity": "common"
+  },
+  {
+    "id": "river-crimson",
+    "name": "Crimson River",
+    "image": "images/river.svg",
+    "filter": "hue-rotate(320deg) saturate(1.6)",
+    "rarity": "common"
+  },
+  {
+    "id": "river-emerald",
+    "name": "Emerald River",
+    "image": "images/river.svg",
+    "filter": "hue-rotate(90deg) saturate(1.4)",
+    "rarity": "common"
+  },
+  {
+    "id": "river-azure",
+    "name": "Azure River",
+    "image": "images/river.svg",
+    "filter": "hue-rotate(180deg) saturate(1.4)",
+    "rarity": "common"
+  },
+  {
+    "id": "river-golden",
+    "name": "Golden River",
+    "image": "images/river.svg",
+    "filter": "sepia(0.6) saturate(2) hue-rotate(-20deg)",
+    "rarity": "rare"
+  },
+  {
+    "id": "river-violet",
+    "name": "Violet River",
+    "image": "images/river.svg",
+    "filter": "hue-rotate(250deg) saturate(1.6)",
+    "rarity": "common"
+  },
+  {
+    "id": "river-midnight",
+    "name": "Midnight River",
+    "image": "images/river.svg",
+    "filter": "brightness(0.55) saturate(1.3) hue-rotate(220deg)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "river-inferno",
+    "name": "Inferno River",
+    "image": "images/river.svg",
+    "filter": "hue-rotate(-30deg) saturate(2.2) contrast(1.2) brightness(1.1)",
+    "rarity": "common"
+  },
+  {
+    "id": "river-frost",
+    "name": "Frost River",
+    "image": "images/river.svg",
+    "filter": "hue-rotate(190deg) saturate(0.7) brightness(1.3) contrast(0.9)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "river-spectral",
+    "name": "Spectral River",
+    "image": "images/river.svg",
+    "filter": "invert(0.82) hue-rotate(180deg) saturate(1.5)",
+    "rarity": "common"
+  },
+  {
+    "id": "town-original",
+    "name": "Original Town",
+    "image": "images/town.svg",
+    "filter": "none",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "town-crimson",
+    "name": "Crimson Town",
+    "image": "images/town.svg",
+    "filter": "hue-rotate(320deg) saturate(1.6)",
+    "rarity": "common"
+  },
+  {
+    "id": "town-emerald",
+    "name": "Emerald Town",
+    "image": "images/town.svg",
+    "filter": "hue-rotate(90deg) saturate(1.4)",
+    "rarity": "common"
+  },
+  {
+    "id": "town-azure",
+    "name": "Azure Town",
+    "image": "images/town.svg",
+    "filter": "hue-rotate(180deg) saturate(1.4)",
+    "rarity": "common"
+  },
+  {
+    "id": "town-golden",
+    "name": "Golden Town",
+    "image": "images/town.svg",
+    "filter": "sepia(0.6) saturate(2) hue-rotate(-20deg)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "town-violet",
+    "name": "Violet Town",
+    "image": "images/town.svg",
+    "filter": "hue-rotate(250deg) saturate(1.6)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "town-midnight",
+    "name": "Midnight Town",
+    "image": "images/town.svg",
+    "filter": "brightness(0.55) saturate(1.3) hue-rotate(220deg)",
+    "rarity": "rare"
+  },
+  {
+    "id": "town-inferno",
+    "name": "Inferno Town",
+    "image": "images/town.svg",
+    "filter": "hue-rotate(-30deg) saturate(2.2) contrast(1.2) brightness(1.1)",
+    "rarity": "common"
+  },
+  {
+    "id": "town-frost",
+    "name": "Frost Town",
+    "image": "images/town.svg",
+    "filter": "hue-rotate(190deg) saturate(0.7) brightness(1.3) contrast(0.9)",
+    "rarity": "common"
+  },
+  {
+    "id": "town-spectral",
+    "name": "Spectral Town",
+    "image": "images/town.svg",
+    "filter": "invert(0.82) hue-rotate(180deg) saturate(1.5)",
+    "rarity": "common"
+  },
+  {
+    "id": "car-original",
+    "name": "Original Car",
+    "image": "images/car.svg",
+    "filter": "none",
+    "rarity": "common"
+  },
+  {
+    "id": "car-crimson",
+    "name": "Crimson Car",
+    "image": "images/car.svg",
+    "filter": "hue-rotate(320deg) saturate(1.6)",
+    "rarity": "common"
+  },
+  {
+    "id": "car-emerald",
+    "name": "Emerald Car",
+    "image": "images/car.svg",
+    "filter": "hue-rotate(90deg) saturate(1.4)",
+    "rarity": "common"
+  },
+  {
+    "id": "car-azure",
+    "name": "Azure Car",
+    "image": "images/car.svg",
+    "filter": "hue-rotate(180deg) saturate(1.4)",
+    "rarity": "rare"
+  },
+  {
+    "id": "car-golden",
+    "name": "Golden Car",
+    "image": "images/car.svg",
+    "filter": "sepia(0.6) saturate(2) hue-rotate(-20deg)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "car-violet",
+    "name": "Violet Car",
+    "image": "images/car.svg",
+    "filter": "hue-rotate(250deg) saturate(1.6)",
+    "rarity": "common"
+  },
+  {
+    "id": "car-midnight",
+    "name": "Midnight Car",
+    "image": "images/car.svg",
+    "filter": "brightness(0.55) saturate(1.3) hue-rotate(220deg)",
+    "rarity": "common"
+  },
+  {
+    "id": "car-inferno",
+    "name": "Inferno Car",
+    "image": "images/car.svg",
+    "filter": "hue-rotate(-30deg) saturate(2.2) contrast(1.2) brightness(1.1)",
+    "rarity": "common"
+  },
+  {
+    "id": "car-frost",
+    "name": "Frost Car",
+    "image": "images/car.svg",
+    "filter": "hue-rotate(190deg) saturate(0.7) brightness(1.3) contrast(0.9)",
+    "rarity": "rare"
+  },
+  {
+    "id": "car-spectral",
+    "name": "Spectral Car",
+    "image": "images/car.svg",
+    "filter": "invert(0.82) hue-rotate(180deg) saturate(1.5)",
+    "rarity": "rare"
+  },
+  {
+    "id": "moon-original",
+    "name": "Original Moon",
+    "image": "images/moon.svg",
+    "filter": "none",
+    "rarity": "common"
+  },
+  {
+    "id": "moon-crimson",
+    "name": "Crimson Moon",
+    "image": "images/moon.svg",
+    "filter": "hue-rotate(320deg) saturate(1.6)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "moon-emerald",
+    "name": "Emerald Moon",
+    "image": "images/moon.svg",
+    "filter": "hue-rotate(90deg) saturate(1.4)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "moon-azure",
+    "name": "Azure Moon",
+    "image": "images/moon.svg",
+    "filter": "hue-rotate(180deg) saturate(1.4)",
+    "rarity": "common"
+  },
+  {
+    "id": "moon-golden",
+    "name": "Golden Moon",
+    "image": "images/moon.svg",
+    "filter": "sepia(0.6) saturate(2) hue-rotate(-20deg)",
+    "rarity": "rare"
+  },
+  {
+    "id": "moon-violet",
+    "name": "Violet Moon",
+    "image": "images/moon.svg",
+    "filter": "hue-rotate(250deg) saturate(1.6)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "moon-midnight",
+    "name": "Midnight Moon",
+    "image": "images/moon.svg",
+    "filter": "brightness(0.55) saturate(1.3) hue-rotate(220deg)",
+    "rarity": "common"
+  },
+  {
+    "id": "moon-inferno",
+    "name": "Inferno Moon",
+    "image": "images/moon.svg",
+    "filter": "hue-rotate(-30deg) saturate(2.2) contrast(1.2) brightness(1.1)",
+    "rarity": "common"
+  },
+  {
+    "id": "moon-frost",
+    "name": "Frost Moon",
+    "image": "images/moon.svg",
+    "filter": "hue-rotate(190deg) saturate(0.7) brightness(1.3) contrast(0.9)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "moon-spectral",
+    "name": "Spectral Moon",
+    "image": "images/moon.svg",
+    "filter": "invert(0.82) hue-rotate(180deg) saturate(1.5)",
+    "rarity": "common"
+  },
+  {
+    "id": "cave-original",
+    "name": "Original Cave",
+    "image": "images/cave.svg",
+    "filter": "none",
+    "rarity": "common"
+  },
+  {
+    "id": "cave-crimson",
+    "name": "Crimson Cave",
+    "image": "images/cave.svg",
+    "filter": "hue-rotate(320deg) saturate(1.6)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "cave-emerald",
+    "name": "Emerald Cave",
+    "image": "images/cave.svg",
+    "filter": "hue-rotate(90deg) saturate(1.4)",
+    "rarity": "common"
+  },
+  {
+    "id": "cave-azure",
+    "name": "Azure Cave",
+    "image": "images/cave.svg",
+    "filter": "hue-rotate(180deg) saturate(1.4)",
+    "rarity": "common"
+  },
+  {
+    "id": "cave-golden",
+    "name": "Golden Cave",
+    "image": "images/cave.svg",
+    "filter": "sepia(0.6) saturate(2) hue-rotate(-20deg)",
+    "rarity": "common"
+  },
+  {
+    "id": "cave-violet",
+    "name": "Violet Cave",
+    "image": "images/cave.svg",
+    "filter": "hue-rotate(250deg) saturate(1.6)",
+    "rarity": "common"
+  },
+  {
+    "id": "cave-midnight",
+    "name": "Midnight Cave",
+    "image": "images/cave.svg",
+    "filter": "brightness(0.55) saturate(1.3) hue-rotate(220deg)",
+    "rarity": "common"
+  },
+  {
+    "id": "cave-inferno",
+    "name": "Inferno Cave",
+    "image": "images/cave.svg",
+    "filter": "hue-rotate(-30deg) saturate(2.2) contrast(1.2) brightness(1.1)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "cave-frost",
+    "name": "Frost Cave",
+    "image": "images/cave.svg",
+    "filter": "hue-rotate(190deg) saturate(0.7) brightness(1.3) contrast(0.9)",
+    "rarity": "common"
+  },
+  {
+    "id": "cave-spectral",
+    "name": "Spectral Cave",
+    "image": "images/cave.svg",
+    "filter": "invert(0.82) hue-rotate(180deg) saturate(1.5)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "rainbow-original",
+    "name": "Original Rainbow",
+    "image": "images/rainbow.svg",
+    "filter": "none",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "rainbow-crimson",
+    "name": "Crimson Rainbow",
+    "image": "images/rainbow.svg",
+    "filter": "hue-rotate(320deg) saturate(1.6)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "rainbow-emerald",
+    "name": "Emerald Rainbow",
+    "image": "images/rainbow.svg",
+    "filter": "hue-rotate(90deg) saturate(1.4)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "rainbow-azure",
+    "name": "Azure Rainbow",
+    "image": "images/rainbow.svg",
+    "filter": "hue-rotate(180deg) saturate(1.4)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "rainbow-golden",
+    "name": "Golden Rainbow",
+    "image": "images/rainbow.svg",
+    "filter": "sepia(0.6) saturate(2) hue-rotate(-20deg)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "rainbow-violet",
+    "name": "Violet Rainbow",
+    "image": "images/rainbow.svg",
+    "filter": "hue-rotate(250deg) saturate(1.6)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "rainbow-midnight",
+    "name": "Midnight Rainbow",
+    "image": "images/rainbow.svg",
+    "filter": "brightness(0.55) saturate(1.3) hue-rotate(220deg)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "rainbow-inferno",
+    "name": "Inferno Rainbow",
+    "image": "images/rainbow.svg",
+    "filter": "hue-rotate(-30deg) saturate(2.2) contrast(1.2) brightness(1.1)",
+    "rarity": "common"
+  },
+  {
+    "id": "rainbow-frost",
+    "name": "Frost Rainbow",
+    "image": "images/rainbow.svg",
+    "filter": "hue-rotate(190deg) saturate(0.7) brightness(1.3) contrast(0.9)",
+    "rarity": "common"
+  },
+  {
+    "id": "rainbow-spectral",
+    "name": "Spectral Rainbow",
+    "image": "images/rainbow.svg",
+    "filter": "invert(0.82) hue-rotate(180deg) saturate(1.5)",
+    "rarity": "common"
+  },
+  {
+    "id": "ball-original",
+    "name": "Original Ball",
+    "image": "images/ball.svg",
+    "filter": "none",
+    "rarity": "common"
+  },
+  {
+    "id": "ball-crimson",
+    "name": "Crimson Ball",
+    "image": "images/ball.svg",
+    "filter": "hue-rotate(320deg) saturate(1.6)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "ball-emerald",
+    "name": "Emerald Ball",
+    "image": "images/ball.svg",
+    "filter": "hue-rotate(90deg) saturate(1.4)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "ball-azure",
+    "name": "Azure Ball",
+    "image": "images/ball.svg",
+    "filter": "hue-rotate(180deg) saturate(1.4)",
+    "rarity": "common"
+  },
+  {
+    "id": "ball-golden",
+    "name": "Golden Ball",
+    "image": "images/ball.svg",
+    "filter": "sepia(0.6) saturate(2) hue-rotate(-20deg)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "ball-violet",
+    "name": "Violet Ball",
+    "image": "images/ball.svg",
+    "filter": "hue-rotate(250deg) saturate(1.6)",
+    "rarity": "common"
+  },
+  {
+    "id": "ball-midnight",
+    "name": "Midnight Ball",
+    "image": "images/ball.svg",
+    "filter": "brightness(0.55) saturate(1.3) hue-rotate(220deg)",
+    "rarity": "rare"
+  },
+  {
+    "id": "ball-inferno",
+    "name": "Inferno Ball",
+    "image": "images/ball.svg",
+    "filter": "hue-rotate(-30deg) saturate(2.2) contrast(1.2) brightness(1.1)",
+    "rarity": "common"
+  },
+  {
+    "id": "ball-frost",
+    "name": "Frost Ball",
+    "image": "images/ball.svg",
+    "filter": "hue-rotate(190deg) saturate(0.7) brightness(1.3) contrast(0.9)",
+    "rarity": "common"
+  },
+  {
+    "id": "ball-spectral",
+    "name": "Spectral Ball",
+    "image": "images/ball.svg",
+    "filter": "invert(0.82) hue-rotate(180deg) saturate(1.5)",
+    "rarity": "common"
+  },
+  {
+    "id": "headphones-original",
+    "name": "Original Headphones",
+    "image": "images/headphones.svg",
+    "filter": "none",
+    "rarity": "common"
+  },
+  {
+    "id": "headphones-crimson",
+    "name": "Crimson Headphones",
+    "image": "images/headphones.svg",
+    "filter": "hue-rotate(320deg) saturate(1.6)",
+    "rarity": "common"
+  },
+  {
+    "id": "headphones-emerald",
+    "name": "Emerald Headphones",
+    "image": "images/headphones.svg",
+    "filter": "hue-rotate(90deg) saturate(1.4)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "headphones-azure",
+    "name": "Azure Headphones",
+    "image": "images/headphones.svg",
+    "filter": "hue-rotate(180deg) saturate(1.4)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "headphones-golden",
+    "name": "Golden Headphones",
+    "image": "images/headphones.svg",
+    "filter": "sepia(0.6) saturate(2) hue-rotate(-20deg)",
+    "rarity": "common"
+  },
+  {
+    "id": "headphones-violet",
+    "name": "Violet Headphones",
+    "image": "images/headphones.svg",
+    "filter": "hue-rotate(250deg) saturate(1.6)",
+    "rarity": "common"
+  },
+  {
+    "id": "headphones-midnight",
+    "name": "Midnight Headphones",
+    "image": "images/headphones.svg",
+    "filter": "brightness(0.55) saturate(1.3) hue-rotate(220deg)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "headphones-inferno",
+    "name": "Inferno Headphones",
+    "image": "images/headphones.svg",
+    "filter": "hue-rotate(-30deg) saturate(2.2) contrast(1.2) brightness(1.1)",
+    "rarity": "common"
+  },
+  {
+    "id": "headphones-frost",
+    "name": "Frost Headphones",
+    "image": "images/headphones.svg",
+    "filter": "hue-rotate(190deg) saturate(0.7) brightness(1.3) contrast(0.9)",
+    "rarity": "common"
+  },
+  {
+    "id": "headphones-spectral",
+    "name": "Spectral Headphones",
+    "image": "images/headphones.svg",
+    "filter": "invert(0.82) hue-rotate(180deg) saturate(1.5)",
+    "rarity": "common"
+  },
+  {
+    "id": "book-original",
+    "name": "Original Book",
+    "image": "images/book.svg",
+    "filter": "none",
+    "rarity": "common"
+  },
+  {
+    "id": "book-crimson",
+    "name": "Crimson Book",
+    "image": "images/book.svg",
+    "filter": "hue-rotate(320deg) saturate(1.6)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "book-emerald",
+    "name": "Emerald Book",
+    "image": "images/book.svg",
+    "filter": "hue-rotate(90deg) saturate(1.4)",
+    "rarity": "common"
+  },
+  {
+    "id": "book-azure",
+    "name": "Azure Book",
+    "image": "images/book.svg",
+    "filter": "hue-rotate(180deg) saturate(1.4)",
+    "rarity": "common"
+  },
+  {
+    "id": "book-golden",
+    "name": "Golden Book",
+    "image": "images/book.svg",
+    "filter": "sepia(0.6) saturate(2) hue-rotate(-20deg)",
+    "rarity": "rare"
+  },
+  {
+    "id": "book-violet",
+    "name": "Violet Book",
+    "image": "images/book.svg",
+    "filter": "hue-rotate(250deg) saturate(1.6)",
+    "rarity": "common"
+  },
+  {
+    "id": "book-midnight",
+    "name": "Midnight Book",
+    "image": "images/book.svg",
+    "filter": "brightness(0.55) saturate(1.3) hue-rotate(220deg)",
+    "rarity": "common"
+  },
+  {
+    "id": "book-inferno",
+    "name": "Inferno Book",
+    "image": "images/book.svg",
+    "filter": "hue-rotate(-30deg) saturate(2.2) contrast(1.2) brightness(1.1)",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "book-frost",
+    "name": "Frost Book",
+    "image": "images/book.svg",
+    "filter": "hue-rotate(190deg) saturate(0.7) brightness(1.3) contrast(0.9)",
+    "rarity": "common"
+  },
+  {
+    "id": "book-spectral",
+    "name": "Spectral Book",
+    "image": "images/book.svg",
+    "filter": "invert(0.82) hue-rotate(180deg) saturate(1.5)",
+    "rarity": "common"
+  }
+]

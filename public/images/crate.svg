@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <polygon points="20,70 100,35 180,70 100,105" fill="#c9963c"/>
+  <polygon points="20,70 100,105 100,175 20,140" fill="#a8752b"/>
+  <polygon points="180,70 100,105 100,175 180,140" fill="#8c611f"/>
+  <polygon points="20,70 100,35 100,55 40,80" fill="#e0b364" opacity="0.6"/>
+  <rect x="92" y="35" width="16" height="140" fill="#5a3d17" opacity="0.85"/>
+  <polygon points="20,70 180,70 180,80 20,80" fill="#5a3d17" opacity="0.85"/>
+</svg>

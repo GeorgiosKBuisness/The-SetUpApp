@@ -1,0 +1,13 @@
+{
+  "name": "lootbox-simulator",
+  "version": "1.0.0",
+  "description": "A barebones loot box simulator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate": "node scripts/generate-items.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
